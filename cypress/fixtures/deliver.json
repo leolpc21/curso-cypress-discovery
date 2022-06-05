@@ -1,0 +1,50 @@
+{
+  "signup": {
+    "name": "Leo Costa",
+    "cpf": "99971214999",
+    "email": "leolpc@teste.com",
+    "whatsapp": "31987079999",
+    "address": {
+      "postalcode": "32185160",
+      "street": "Rua Felipe dos Santos",
+      "number": "990",
+      "details": "Proximo ao rua sete de setembro",
+      "district": "Nacional",
+      "city_state": "Contagem/MG"
+    },
+    "delivery_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  },
+  "cpf_inv": {
+    "name": "Henrique Sousa",
+    "cpf": "888712149PP",
+    "email": "henrique@teste.com",
+    "whatsapp": "31987078888",
+    "address": {
+      "postalcode": "32185160",
+      "street": "Rua Felipe dos Santos",
+      "number": "990",
+      "details": "Proximo ao rua sete de setembro",
+      "district": "Nacional",
+      "city_state": "Contagem/MG"
+    },
+    "delivery_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  },
+  "email_inv": {
+    "name": "Leo Costa",
+    "cpf": "99971214999",
+    "email": "leolpcteste.com",
+    "whatsapp": "31987079999",
+    "address": {
+      "postalcode": "32185160",
+      "street": "Rua Felipe dos Santos",
+      "number": "990",
+      "details": "Proximo ao rua sete de setembro",
+      "district": "Nacional",
+      "city_state": "Contagem/MG"
+    },
+    "delivery_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  }
+}

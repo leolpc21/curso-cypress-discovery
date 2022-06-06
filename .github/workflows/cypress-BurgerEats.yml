@@ -2,7 +2,7 @@ name: Cypress Regression Tests
 
 on:
   schedule:
-    - cron: '12 20 * * *'
+    - cron: '15 23 * * *'
   workflow_dispatch:
   push:
     branches:

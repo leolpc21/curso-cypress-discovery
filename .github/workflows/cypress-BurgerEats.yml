@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "15 18 * * *"
   workflow_dispatch:
+    inputs:
+      specs:
+        description: 'Run ALL or unique spec'
+        default: cypress/integration/*
   push:
     branches:
       - main
@@ -29,7 +33,7 @@ jobs:
           browser: chrome
           record: true
           group: 'UI - Chrome'
-          spec: cypress/integration/*
+          spec: ${{ github.event.inputs.specs }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

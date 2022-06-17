@@ -63,7 +63,7 @@ describe('Signup', () => {
     signup.go();
     signup.fillForm(deliver);
     signup.submit();
-    signup.alertMessageShouldBe('Oops! Emails com formato inválido.');
+    signup.alertMessageShouldBe('Oops! Email com formato inválido.');
 
   })
 
